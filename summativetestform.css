@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    color: black;
+    text-align: center;
+     }
+     .menu-container {
+          color: #fff;
+          background-color: transparent;
+          padding-right: 0.5px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .name {
+       color: black;
+       font-size: 80px;
+       align-content: center;
+     }
+#here {
+  color: red;
+}
+
+.wrapper{
+  position: sticky;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 800px;
+  width: 50%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(254,236,164,1);
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #002147;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #002147;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #grey;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+body {
+  background-image: url('./images/testbground.jpeg');
+}
+
+
+.footer {
+        position: fixed;
+        left: 5px;
+             bottom: 5px;
+              right: 10px;
+             width: 100%;
+             height: 10%;
+         font-size: 10px;
+font-weight: bold;
+font-size: 12px;
+                   display: flex;
+
+                    justify-content: space-between;
+
+                      flex-wrap: wrap;
+
+
+
+                        align-items: space-around;
+
+                        justify-content: space-around;
+                         align-content: center;
+                         flex-flow: column;
+                         flex-direction: row-reverse;
+
+       }

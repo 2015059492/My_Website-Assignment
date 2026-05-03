@@ -1,0 +1,15 @@
+.pp em{
+  font-weight: bold;
+  font-style: normal;
+}
+
+.images{
+ flex-direction: row;
+}
+.neighbors em{
+ font-weight: normal;
+ font-style: italic;
+}
+.link a{
+ color:red;
+}

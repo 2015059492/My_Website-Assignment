@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Form</title>
+<link rel="stylesheet" href="summativetestform.css">
+<script src="summativetestform.js"></script>
+</head>
+
+<header>
+  <div class='menu-container'>
+    <div class='header-container'>
+    <div class='header'>
+
+     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+     <i class="fa fa-bars"></i><br>
+</header>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<body>
+<ol>
+  <li><a href="#home">Home</a></li>
+  <li><a class="active" href="#enquiries">Enquiries</a></li>
+</ol>
+
+<div class="wrapper">
+      <h1>Sithandani Foundation</h1>
+     <h2>Enquire Here</h2>
+     <script type="text/javascript">
+     function changeCapacity()  {
+       var userInput=document.getElementById('userInput').value;
+       document.getElementById('boldStuff2').innerHTML=userInput;
+     }
+     </script>
+     <p>Enquire as a <b id='boldStuff2'>Donor</b></p>
+     <input type='text' id='userInput' value='Enter Your Capacity'/>
+     <input type='button'onclick='changeCapacity()' value='changeCapacity'/>
+
+     <div id="error_message"></div>
+     <form id="myform" onsubmit="return validate()">
+       <div class="input_field">
+           <input type="text" placeholder="Name" id="name">
+       </div>
+       <div class="input_field">
+           <input type="text" placeholder="Nature of your enquiry" id="nature of your enquiry">
+       </div>
+       <div class="input_field">
+           <input type="text" placeholder="Phone" id="phone">
+       </div>
+       <div class="input_field">
+           <input type="text" placeholder="Email" id="email">
+       </div>
+       <div class="input_field">
+           <textarea placeholder="Message" id="message"></textarea>
+       </div>
+       <div style="padding-bottom: 18px;">Donation Amount<span ></span><br/>
+<span><input type="radio" id="data_5_0" name="data_5" value="ZAR500"/> ZAR500</span><br/>
+<span><input type="radio" id="data_5_1" name="data_5" value="ZAR1000"/> ZAR1000</span><br/>
+<span><input type="radio" id="data_5_2" name="data_5" value="ZAR2500"/> ZAR2500</span><br/>
+<span><input type="radio" id="data_5_3" name="data_5" value="ZAR5000"/> ZAR5000</span><br/>
+</div>
+       <div class="btn">
+           <input type="submit">
+       </div>
+     </form>
+   </div>
+
+   <footer>
+
+   <div class='footer-container'>
+
+
+   <div class="footer">
+
+
+          <p><img src="images/phone.jpg" width="20px" height="20px"> +27 637 473 855<br>
+              <img src="images/email.jpg" width="20px" height="20px">sithandani@gmail.com
+           </p>
+         <p><img src="images/postaladdress.jpg" width="30px" height="30px">Po Box 100, Melmoth 3835<br>
+              <img src="images/paddress.jpg" width="30px" height="30px"> EThengela
+            </p>
+
+
+   <p><img src="images/instagram.png" width="40px" height="40px">
+   <img src="images/twitter.png" width="40px" height="40px">
+   <img src="images/linkedin.png" width="40px" height="40px">
+   <img src="images/youtube.png" width="40px" height="40px">
+   </p>
+
+   </footer>
+
+   </body>
+   </html>

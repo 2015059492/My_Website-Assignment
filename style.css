@@ -1,0 +1,111 @@
+*{
+  margin: auto;
+  padding: 0
+
+}
+
+
+body{
+  margin: auto;
+  font-family: Arial, "Helvetica Neue",
+  Helvetica, sans-serif;
+  font-size: 30px;
+  color: black;
+  line-height: 1.6
+
+}
+
+body {
+  background-image:url('./images/background-image.jpg');
+  background-color: skyblue
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  }
+
+ h1{
+  font-size: 80px
+}
+
+ p{
+  font-size: 9px;
+
+}
+
+.button{
+  font-size: 10px;
+  text-decoration: none;
+  color: #fff;
+  border: black 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: black;
+}
+.button:hover{
+  background: #fff;
+  color: black;
+
+}
+
+.footer {
+        position: fixed;
+        left: 5px;
+             bottom: 5px;
+              right: 10px;
+             width: 100%;
+             height: 10%;
+         font-color: black;
+         font-size: 10px;
+
+
+                   display: flex;
+
+                    justify-content: space-between;
+
+                      flex-wrap: wrap;
+
+
+
+                        align-items: space-around;
+
+                        justify-content: space-around;
+                         align-content: center;
+                         flex-flow: column;
+                         flex-direction: row-reverse;
+
+       }
+
+.topnav {
+  background-color: none;
+  overflow: hidden;
+  flex-direction: row;
+
+}
+
+
+.topnav a {
+  float:left;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: skyblue;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: skyblue;
+  color: white;
+}
